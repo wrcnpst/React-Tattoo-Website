@@ -1,4 +1,6 @@
-function TottooPost() {
+import './TattooPost.css'
+
+function TattooPost() {
     return(
         <div className='tattoo-post'>
             <div className="tattoo-post-bg"/>
@@ -10,4 +12,4 @@ function TottooPost() {
     )
 }
 
-export default TottooPost;
+export default TattooPost;

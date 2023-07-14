@@ -11,7 +11,7 @@
 }
 
 .tattoo-post-bg {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.851);
     position: absolute;
     top: 0;
     bottom: 0;

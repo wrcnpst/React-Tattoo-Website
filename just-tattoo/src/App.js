@@ -1,6 +1,7 @@
-import AppHeader from './App-Header';
+import AppHeader from './components/App-Header';
 import './App.css';
-import TattooItem from './Tattoo-Item';
+import TattooItem from './components/Tattoo-Item';
+import TattooPost from './components/TattooPost';
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
 				<TattooItem/>
 				<TattooItem/>
 			</div>
+			{/* <TattooPost/> */}
 		</div>
 	);
 }
