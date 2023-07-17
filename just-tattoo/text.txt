@@ -1,3 +1,35 @@
 States
 - data in the component to change the front end
 - must have 2 data in an ARRAY [text, setText]
+
+Event
+	const [selectedTattoo, setSelectedTattoo] = useState(null);
+    function onTattooOpenClick() {
+		setSelectedTattoo(tattoos[1]);
+	}
+
+	let tattooPost = null;
+	if (!!selectedTattoo) {
+		tattooPost = <TattooPost tattoo={selectedTattoo}/>
+	}
+
+    <button onClick={onTattooOpenClick}>สักหน่อยมั้ยหละ</button>
+
+=======================================
+
+	const [selectedTattoo, setSelectedTattoo] = useState(null);
+
+    <button onClick={onTattooOpenClick}>สักหน่อยมั้ยหละ</button>
+
+    function onTattooOpenClick() {
+		setSelectedTattoo(tattoos[1]);
+	}
+
+	let tattooPost = null;
+	if (!!selectedTattoo) {
+		tattooPost = <TattooPost tattoo={selectedTattoo}/>
+	}
+
+
+    
+-   
