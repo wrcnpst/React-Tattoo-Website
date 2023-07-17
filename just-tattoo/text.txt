@@ -1,0 +1,3 @@
+States
+- data in the component to change the front end
+- must have 2 data in an ARRAY [text, setText]
